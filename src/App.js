@@ -1,6 +1,6 @@
 import Navbar from './client/components/Navbar'
 import Hero from './client/components/Hero'
-import Footer from './client/components/Footer'
+import Footer from './client/footer/Footer'
 import ExploreNearby from './client/components/ExploreNearby';
 import LiveAnywhere from './client/components/LiveAnywhere';
 import TryHosting from './client/components/TryHosting';
