@@ -1,0 +1,12 @@
+/* Nav */
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.logo {
+    margin-right: auto;
+}
