@@ -1,5 +1,6 @@
 import React from 'react';
 import NavItem from './NavItem';
+import Logo from './Logo';
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
       <div className="container">
         <div className="row">
           <ul className="nav">
-            <li className="logo">Airbnb</li>
+            <Logo />
             <NavItem title="Places to stay" />
             <NavItem title="Experiences" />
             <NavItem title="Online Experiences" />
