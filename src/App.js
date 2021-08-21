@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './client/components/Navbar'
+import Hero from './client/components/Hero'
+import Footer from './client/components/Footer'
+import ExploreNearby from './client/components/ExploreNearby';
+import LiveAnywhere from './client/components/LiveAnywhere';
+import TryHosting from './client/components/TryHosting';
+import Inspiration from './client/components/Inspiration';
+import DirectoryFooter from './client/components/DirectoryFooter';
+// import Layout from './client/components/Layout';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <Hero />
+      <ExploreNearby />
+      <LiveAnywhere />
+      <TryHosting />
+      <Inspiration />
+      <DirectoryFooter />
+      <Footer />
+    </>
   );
 }
 
