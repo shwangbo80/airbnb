@@ -1,11 +1,13 @@
-import React from 'react'
+import React from 'react';
+import CreateExploreCard from './CreateExploreCard';
 
 const ExploreNearby = () => {
   return (
     <div>
-      <h3>ExploreNearby</h3>
+      <h3>Explore Nearby</h3>
+      <CreateExploreCard />
     </div>
-  )
-}
+  );
+};
 
-export default ExploreNearby
+export default ExploreNearby;
