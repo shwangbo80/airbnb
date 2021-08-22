@@ -13,3 +13,19 @@
     margin-right: auto;
     width: 90px;
 }
+
+/* Hero */
+.hero-img {
+    background: url(client/components/Hero/img/airbnb-hero.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+    padding: 350px;
+	text-align: center;
+	color: white;
+  }

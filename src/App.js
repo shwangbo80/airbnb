@@ -1,5 +1,5 @@
 import Navbar from './client/components/Navbar/Navbar';
-import Hero from './client/components/Hero';
+import Hero from './client/components/Hero/Hero';
 import Footer from './client/components/Footer';
 import ExploreNearby from './client/components/ExploreNearby';
 import LiveAnywhere from './client/components/LiveAnywhere';
