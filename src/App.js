@@ -1,4 +1,4 @@
-import Navbar from './client/components/Navbar/Navbar';
+// import Navbar from './client/components/Navbar/Navbar';
 import Hero from './client/components/Hero/Hero';
 import Footer from './client/components/Footer';
 import ExploreNearby from './client/components/ExploreNearby';
@@ -11,7 +11,7 @@ import DirectoryFooter from './client/components/DirectoryFooter';
 const App = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <Hero />
       <ExploreNearby />
       <LiveAnywhere />

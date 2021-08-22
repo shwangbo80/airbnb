@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <div className="container">
         <div className="row">
-          <ul className="nav" sticky="top">
+          <ul className="nav fixed-top">
             <Logo />
             <NavItem title="Places to stay" />
             <NavItem title="Experiences" />
