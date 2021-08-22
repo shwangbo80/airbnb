@@ -3,7 +3,7 @@ import CreateExploreCard from './CreateExploreCard';
 
 const ExploreNearby = () => {
   return (
-    <div>
+    <div className="container">
       <h3>Explore Nearby</h3>
       <CreateExploreCard />
     </div>

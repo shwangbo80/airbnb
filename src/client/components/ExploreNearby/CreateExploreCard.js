@@ -1,15 +1,23 @@
 import React from 'react';
 import ExploreCard from './ExploreCard';
 import ExploreData from './ExploreData';
+import LosAngeles from './img/Los-Angeles.png';
+import SanDiego from './img/San-Diego.png';
+import LasVegas from './img/Los-Vegas.png';
+import Henderson from './img/Henderson.png';
+import Paradise from './img/Paradise.png';
+import BigBearLake from './img/Big-Bear-Lake.png';
+import PalmSprings from './img/Palm-Springs.png';
+import Anaheim from './img/Anaheim.png';
 
 function CreateExploreCard() {
   return (
-    <div className="container">
+    <div>
       <div className="row">
         <div className="col">
           <ExploreCard
             id={ExploreData[0].id}
-            image={ExploreData[0].image}
+            image={LosAngeles}
             destination={ExploreData[0].destination}
             distance={ExploreData[0].distance}
           />
@@ -17,7 +25,7 @@ function CreateExploreCard() {
         <div className="col">
           <ExploreCard
             id={ExploreData[1].id}
-            image={ExploreData[1].image}
+            image={SanDiego}
             destination={ExploreData[1].destination}
             distance={ExploreData[1].distance}
           />
@@ -25,15 +33,15 @@ function CreateExploreCard() {
         <div className="col">
           <ExploreCard
             id={ExploreData[2].id}
-            image={ExploreData[2].image}
+            image={LasVegas}
             destination={ExploreData[2].destination}
             distance={ExploreData[2].distance}
           />
         </div>
-        <div className="col">
+        <div className="col d-none d-lg-inline">
           <ExploreCard
             id={ExploreData[3].id}
-            image={ExploreData[3].image}
+            image={Henderson}
             destination={ExploreData[3].destination}
             distance={ExploreData[3].distance}
           />
@@ -43,7 +51,7 @@ function CreateExploreCard() {
         <div className="col">
           <ExploreCard
             id={ExploreData[4].id}
-            image={ExploreData[4].image}
+            image={Paradise}
             destination={ExploreData[4].destination}
             distance={ExploreData[4].distance}
           />
@@ -51,15 +59,15 @@ function CreateExploreCard() {
         <div className="col">
           <ExploreCard
             id={ExploreData[5].id}
-            image={ExploreData[5].image}
+            image={BigBearLake}
             destination={ExploreData[5].destination}
             distance={ExploreData[5].distance}
           />
         </div>
-        <div className="col">
+        <div className="col d-none d-lg-inline">
           <ExploreCard
             id={ExploreData[6].id}
-            image={ExploreData[6].image}
+            image={PalmSprings}
             destination={ExploreData[6].destination}
             distance={ExploreData[6].distance}
           />
@@ -67,7 +75,7 @@ function CreateExploreCard() {
         <div className="col">
           <ExploreCard
             id={ExploreData[7].id}
-            image={ExploreData[7].image}
+            image={Anaheim}
             destination={ExploreData[7].destination}
             distance={ExploreData[7].distance}
           />

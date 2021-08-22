@@ -31,3 +31,9 @@
 	text-align: center;
 	color: white;
   }
+
+  /* Explore Nearby */
+  .explore-img {
+      width: 65px;
+      border-radius: 10%;
+  }

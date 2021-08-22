@@ -2,7 +2,7 @@ const exploreData = [
   {
     id: 1,
     destination: 'Los Angeles',
-    image: './img/Los-Angeles.png',
+    image: 'LosAngeles',
     distance: '30 minute drive',
   },
   {
