@@ -3,9 +3,9 @@ import React from 'react';
 function MemberPortal() {
   return (
     <li>
-      <button className="btn bg-white rounded-pill">
-        <i className="bi bi-list me-1" />
-        <i className="bi bi-person-circle" />
+      <button className="btn bg-white rounded-pill px-2 py-0">
+        <i className="bi bi-list" style={{ fontSize: '1.2em' }} />
+        <i className="bi bi-person-circle ms-2" style={{ fontSize: '1.7em' }} />
       </button>
     </li>
   );

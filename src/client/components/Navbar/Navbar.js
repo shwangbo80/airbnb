@@ -14,7 +14,7 @@ const Navbar = () => {
             <NavItem title="Experiences" />
             <NavItem title="Online Experiences" />
             <li class="ms-auto">Become a host</li>
-            <li className="ms-2">
+            <li className="mx-3">
               <i className="bi bi-globe" />
             </li>
             <MemberPortal />
