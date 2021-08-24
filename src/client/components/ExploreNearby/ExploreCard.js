@@ -21,16 +21,16 @@ import React from 'react';
 // }
 function ExploreCard(props) {
   return (
-    <div className=" mb-3">
+    <div className="mb-3">
       <div className="row">
         <div className="col-md-4 img-padding">
           <img
             src={props.image}
-            className="img-fluid explore-img ms-2"
+            className="img-fluid explore-img ms-4"
             alt={props.destination}
           />
         </div>
-        <div className="col-md-6 img-padding">
+        <div className="col-md-8 img-padding">
           <div>
             <p className="card-destination">{props.destination}</p>
             <p className="card-distance">

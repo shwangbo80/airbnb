@@ -48,7 +48,6 @@
     align-items: center;
   }
 
-  .img-padding {
-      padding-right: 0 !important;
-      padding-left: 0 !important;
-  }
+.card-container {
+    margin-left: 50px;
+}
