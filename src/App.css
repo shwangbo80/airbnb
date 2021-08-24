@@ -37,3 +37,18 @@
       width: 65px;
       border-radius: 10%;
   }
+
+  .card-destination {
+      margin-top: 8px;
+      margin-bottom: 0;
+  }
+
+  .card-distance {
+    display: flex;
+    align-items: center;
+  }
+
+  .img-padding {
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+  }

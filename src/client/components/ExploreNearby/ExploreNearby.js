@@ -4,7 +4,7 @@ import CreateExploreCard from './CreateExploreCard';
 const ExploreNearby = () => {
   return (
     <div className="container">
-      <h3>Explore Nearby</h3>
+      <h3 className="my-4">Explore Nearby</h3>
       <CreateExploreCard />
     </div>
   );
