@@ -50,8 +50,8 @@ const LiveAnywhere = () => {
           {cardImagesArr.map((card, index) => {
             const cardTitle = cardTitlesArr[index]
             return (
-              <Col>
-                <Image key={index} src={card} />
+              <Col xs={6} md={3}>
+                <Image key={index} src={card} rounded />
                 <h3>{cardTitle}</h3>
               </Col>
             )
@@ -61,4 +61,5 @@ const LiveAnywhere = () => {
     </>
   )
 }
+
 export default LiveAnywhere
