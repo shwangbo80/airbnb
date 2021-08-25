@@ -1,6 +1,7 @@
 import React from 'react'
 // import '../css/LiveAnywhere.css'
 import { Container, Row, Col, Image } from 'react-bootstrap'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import img1 from '../../assets/images/liveanywhere-1.jpg'
 import img2 from '../../assets/images/liveanywhere-2.jpg'
 import img3 from '../../assets/images/liveanywhere-3.jpg'
@@ -29,37 +30,35 @@ const cards = [
   },
 ]
 
-const cardImage1 = cards[0].img
-const cardImage2 = cards[1].img
-const cardImage3 = cards[2].img
-const cardImage4 = cards[3].img
-const cardImagesArr = [cardImage1, cardImage2, cardImage3, cardImage4]
-
-const cardTitle1 = cards[0].title
-const cardTitle2 = cards[1].title
-const cardTitle3 = cards[2].title
-const cardTitle4 = cards[3].title
-const cardTitlesArr = [cardTitle1, cardTitle2, cardTitle3, cardTitle4]
-
 const LiveAnywhere = () => {
   return (
-    <>
-      <Container>
-        <h2>Live anywhere</h2>
-        <Row>
-          {cardImagesArr.map((card, index) => {
-            const cardTitle = cardTitlesArr[index]
-            return (
-              <Col xs={6} md={3}>
-                <Image key={index} src={card} rounded />
-                <h3>{cardTitle}</h3>
-              </Col>
-            )
-          })}
-        </Row>
-      </Container>
-    </>
+    <Container>
+      <h2>Live anywhere</h2>
+      <Row>
+        {cards.map((card, index) => {
+          // const cardTitle = cardTitlesArr[index]
+          return (
+            <Col xs={6} md={3}>
+              <Image key={index} src={card.img} rounded />
+              <h3>{card.title}</h3>
+            </Col>
+          )
+        })}
+      </Row>
+    </Container>
   )
 }
 
 export default LiveAnywhere
+
+// const cardImage1 = cards[0].img
+// const cardImage2 = cards[1].img
+// const cardImage3 = cards[2].img
+// const cardImage4 = cards[3].img
+// const cardImagesArr = [cardImage1, cardImage2, cardImage3, cardImage4]
+
+// const cardTitle1 = cards[0].title
+// const cardTitle2 = cards[1].title
+// const cardTitle3 = cards[2].title
+// const cardTitle4 = cards[3].title
+// const cardTitlesArr = [cardTitle1, cardTitle2, cardTitle3, cardTitle4]
