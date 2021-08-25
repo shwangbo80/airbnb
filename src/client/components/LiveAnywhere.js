@@ -1,7 +1,7 @@
 import React from 'react'
 // import '../css/LiveAnywhere.css'
 import { Container, Row, Col, Image } from 'react-bootstrap'
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
+import { Route } from 'react-router-dom'
 import img1 from '../../assets/images/liveanywhere-1.jpg'
 import img2 from '../../assets/images/liveanywhere-2.jpg'
 import img3 from '../../assets/images/liveanywhere-3.jpg'
@@ -11,26 +11,31 @@ const cards = [
   {
     id: 0,
     title: 'Outdoor getaways',
-    img: img1
+    img: img1,
+    path: 'https://airbnb.com/'
   },
   {
     id: 1,
     title: 'Unique stays',
-    img: img2
+    img: img2,
+    path: 'https://airbnb.com/'
   },
   {
     id: 2,
     title: 'Entire homes',
-    img: img3
+    img: img3,
+    path: 'https://airbnb.com/'
   },
   {
     id: 3,
     title: 'Pets allowed',
-    img: img4
+    img: img4,
+    path: 'https://airbnb.com/'
   },
 ]
 
 const LiveAnywhere = () => {
+
   return (
     <Container>
       <h2>Live anywhere</h2>
@@ -38,13 +43,15 @@ const LiveAnywhere = () => {
         {cards.map((card, index) => {
           return (
             <Col className='mt-3' xs={6} md={3} lg={3}>
-              <Image className='img-fluid mb-2' key={index} src={card.img} rounded />
+              <a href={card.path}>
+                <Image className='img-fluid mb-2' key={index} src={card.img} rounded />
+              </a>
               <h5>{card.title}</h5>
             </Col>
           )
         })}
       </Row>
-    </Container>
+    </Container >
   )
 }
 
