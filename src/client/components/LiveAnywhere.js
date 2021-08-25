@@ -34,13 +34,12 @@ const LiveAnywhere = () => {
   return (
     <Container>
       <h2>Live anywhere</h2>
-      <Row>
+      <Row className='d-flex'>
         {cards.map((card, index) => {
-          // const cardTitle = cardTitlesArr[index]
           return (
-            <Col xs={6} md={3}>
-              <Image key={index} src={card.img} rounded />
-              <h3>{card.title}</h3>
+            <Col className='mt-3' xs={6} md={3} lg={3}>
+              <Image className='img-fluid mb-2' key={index} src={card.img} rounded />
+              <h5>{card.title}</h5>
             </Col>
           )
         })}
@@ -50,15 +49,3 @@ const LiveAnywhere = () => {
 }
 
 export default LiveAnywhere
-
-// const cardImage1 = cards[0].img
-// const cardImage2 = cards[1].img
-// const cardImage3 = cards[2].img
-// const cardImage4 = cards[3].img
-// const cardImagesArr = [cardImage1, cardImage2, cardImage3, cardImage4]
-
-// const cardTitle1 = cards[0].title
-// const cardTitle2 = cards[1].title
-// const cardTitle3 = cards[2].title
-// const cardTitle4 = cards[3].title
-// const cardTitlesArr = [cardTitle1, cardTitle2, cardTitle3, cardTitle4]
