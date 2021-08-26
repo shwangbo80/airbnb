@@ -1,10 +1,10 @@
 import React from 'react';
-import Navbar from '../Navbar/Navbar';
+import MainNavbar from '../Navbar/Navbar';
 
 const Hero = () => {
   return (
     <div className="hero-img">
-      <Navbar />
+      <MainNavbar />
       <h3 className="hero-text">Not sure where to go? Perfect.</h3>
     </div>
   );
