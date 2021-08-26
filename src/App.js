@@ -6,7 +6,7 @@ import LiveAnywhere from './client/components/LiveAnywhere.js';
 import TryHosting from './client/components/TryHosting';
 import Inspiration from './client/components/Inspiration';
 import DirectoryFooter from './client/components/DirectoryFooter';
-import Layout from './client/components/Layout';
+import img1 from './assets/images/tryhosting-1.jpg'
 
 const App = () => {
   return (
@@ -15,7 +15,12 @@ const App = () => {
       <Hero />
       <ExploreNearby />
       <LiveAnywhere />
-      <TryHosting />
+      <TryHosting
+        img={img1}
+        title='Try hosting'
+        desc='Earn extra income and unlock new opportunities by sharing your space.'
+        buttonText='Learn more'
+      />
       <Inspiration />
       <DirectoryFooter />
       <Footer />
