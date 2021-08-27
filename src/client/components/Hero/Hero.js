@@ -1,11 +1,15 @@
 import React from 'react';
+import HeroButton from './HeroButton';
 import MainNavbar from '../Navbar/Navbar';
 
 const Hero = () => {
   return (
     <div className="hero-img">
       <MainNavbar />
-      <h3 className="hero-text">Not sure where to go? Perfect.</h3>
+      <div className="hero-container">
+        <h3 className="hero-text">Not sure where to go? Perfect.</h3>
+        <HeroButton />
+      </div>
     </div>
   );
 };
