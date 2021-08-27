@@ -1,7 +1,7 @@
 // import Navbar from './client/components/Navbar/Navbar';
 import Hero from './client/components/Hero/Hero';
 import Footer from './client/components/Footer';
-import ExploreNearby from './client/components/ExploreNearby';
+import ExploreNearby from './client/components/ExploreNearby/ExploreNearby';
 import LiveAnywhere from './client/components/LiveAnywhere';
 import TryHosting from './client/components/TryHosting';
 import Inspiration from './client/components/Inspiration';
