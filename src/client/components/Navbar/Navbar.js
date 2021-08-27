@@ -27,7 +27,7 @@ const MainNavbar = () => {
         className="nav"
         fixed="top"
         style={{
-          transition: '.5s ease',
+          transition: '200ms ease',
           backgroundColor: navBackground ? 'white' : 'transparent',
         }}
       >
