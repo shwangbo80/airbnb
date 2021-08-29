@@ -2,28 +2,25 @@ import React from 'react';
 
 function SearchBar() {
   return (
-    <button className="btn bg-white rounded-pill search-bar">
-      <div className="container">
-        <div className="row">
-          <div className="col-3 search-bar-col">
-            <div className="row">Location</div>
-            <div className="row">Where are you going?</div>
-          </div>
-          <div className="col-3 search-bar-col">
-            <div className="row">Check in</div>
-            <div className="row">Add dates</div>
-          </div>
-          <div className="col-3 search-bar-col">
-            <div className="row">Check out</div>
-            <div className="row">Add dates</div>
-          </div>
-          <div className="col-3 search-bar-col">
-            <div className="row">Guests</div>
-            <div className="row">Add guests</div>
-          </div>
-        </div>
+    <div className="search-bar rounded-pill">
+      <div className="search-section">
+        <span className="bold">Location</span>
+        <div className="search-sub-text">Where are you going?</div>
       </div>
-    </button>
+      <div className="search-section-left">
+        <span className="bold">Check in</span>
+        <div className="search-sub-text">Add dates</div>
+      </div>
+      <div className="search-section-left">
+        <span className="bold">Check out</span>
+        <div className="search-sub-text">Add dates</div>
+      </div>
+      <div className="search-section-left">
+        <span className="bold">Guests</span>
+        <div className="search-sub-text">Add guests</div>
+      </div>
+      <i className="bi bi-search search-icon" />
+    </div>
   );
 }
 
