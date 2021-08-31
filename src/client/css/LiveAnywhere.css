@@ -17,3 +17,16 @@
 /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
 @media only screen and (max-width: 479px) {
 }
+
+.zero-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.zero-padding {
+  padding: 0px;
+}
+
+.debug {
+  border: 3px solid red;
+}

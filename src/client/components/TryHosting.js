@@ -6,7 +6,7 @@ import { Container, Image, Button } from 'react-bootstrap'
 const TryHosting = ({ img, title, desc, buttonText }) => {
   return (
     <a href='https://airbnb.com/'>
-      <Container className='position-relative py-4'>
+      <Container fluid className='position-relative py-4 ps-5 pe-5'>
         <figure>
           <Image src={img} alt='host' className='img-fluid rounded-3' />
           <figcaption className='px-5 position-absolute top-50 start-0 translate-middle-y'>

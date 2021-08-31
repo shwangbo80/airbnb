@@ -1,5 +1,5 @@
 import React from 'react'
-// import '../css/LiveAnywhere.css'
+import '../css/LiveAnywhere.css'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import img1 from '../../assets/images/liveanywhere-1.jpg'
 import img2 from '../../assets/images/liveanywhere-2.jpg'
@@ -36,16 +36,16 @@ const cards = [
 const LiveAnywhere = () => {
 
   return (
-    <Container className='py-5'>
-      <h2>Live anywhere</h2>
-      <Row className='d-flex'>
+    <Container fluid className='py-5 debug'>
+      <h2 className='debug'>Live anywhere</h2>
+      <Row className='debug'>
         {cards.map((card, index) => {
           return (
-            <Col className='mt-3 g-3' xs={6} md={3} lg={3}>
+            <Col className='mt-3 g-3 debug' xs={6} md={3} lg={3}>
               <a href={card.path}>
-                <Image className='img-fluid mb-2 rounded-3' key={index} src={card.img} />
+                <Image className='img-fluid mb-2 rounded-3 debug' key={index} src={card.img} />
               </a>
-              <h5>{card.title}</h5>
+              <h5 className='debug'>{card.title}</h5>
             </Col>
           )
         })}
