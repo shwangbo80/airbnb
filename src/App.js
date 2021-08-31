@@ -7,6 +7,7 @@ import TryHosting from './client/components/TryHosting';
 import Inspiration from './client/components/Inspiration';
 import DirectoryFooter from './client/components/DirectoryFooter';
 import img1 from './assets/images/tryhosting-1.jpg'
+import DiscoverThingsToDo from './client/components/DiscoverThingsToDo';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
         desc='Earn extra income and unlock new opportunities by sharing your space.'
         buttonText='Learn more'
       />
+      <DiscoverThingsToDo />
       <Inspiration />
       <DirectoryFooter />
       <Footer />

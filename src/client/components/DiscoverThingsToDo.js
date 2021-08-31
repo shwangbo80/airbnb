@@ -8,7 +8,7 @@ const cards = [
   {
     id: 0,
     title: 'Experiences',
-    description: 'Find unforgettable activities near your.',
+    description: 'Find unforgettable activities near you.',
     img: img1,
     path: 'https://www.airbnb.com/s/experiences?location_search=NEARBY'
   },
@@ -30,9 +30,23 @@ const cards = [
 
 const DiscoverThingsToDo = () => {
   return (
-    <div>
-
-    </div>
+    <Container fluid className=''>
+      <h2>Discover things to do</h2>
+      <Row>
+        {cards.map((card, index) => {
+          return (
+            <Col>
+              <a href={card.path}>
+                <Image className='img-fluid mb-2 rounded-3' key={index} src={card.img} />
+              </a>
+              <h5>{card.title}</h5>
+              <p>{card.description}</p>
+            </Col>
+          )
+        })
+        }
+      </Row>
+    </Container>
   )
 }
 
