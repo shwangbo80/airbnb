@@ -2,9 +2,10 @@ import img1 from '../../assets/images/liveanywhere-1.jpg'
 import img2 from '../../assets/images/liveanywhere-2.jpg'
 import img3 from '../../assets/images/liveanywhere-3.jpg'
 import img4 from '../../assets/images/liveanywhere-4.jpg'
-import img5 from '../../assets/images/discoverthings-1.jpg'
-import img6 from '../../assets/images/discoverthings-2.jpg'
-import img7 from '../../assets/images/discoverthings-3.jpg'
+import img5 from '../../assets/images/tryhosting-1.jpg'
+import img6 from '../../assets/images/discoverthings-1.jpg'
+import img7 from '../../assets/images/discoverthings-2.jpg'
+import img8 from '../../assets/images/discoverthings-3.jpg'
 
 export default [
   [
@@ -37,24 +38,35 @@ export default [
   [
     {
       id: 0,
+      title: 'Try hosting',
+      description: 'Earn extra income and unlock new opportunities by sharing your space.',
+      buttonText: 'Learn more',
+      img: img5,
+      path: 'https://www.airbnb.com/s/experiences?location_search=NEARBY'
+    },
+  ],
+
+  [
+    {
+      id: 0,
       title: 'Experiences',
       description: 'Find unforgettable activities near you.',
-      img: img5,
+      img: img6,
       path: 'https://www.airbnb.com/s/experiences?location_search=NEARBY'
     },
     {
       id: 1,
       title: 'Online Experiences',
       description: 'Live, interactive led by Hosts.',
-      img: img6,
+      img: img7,
       path: 'https://www.airbnb.com/s/experiences/online'
     },
     {
       id: 2,
       title: 'Olympians & Paralympians',
       description: 'Online activities hosted by atheletes.',
-      img: img7,
+      img: img8,
       path: 'https://www.airbnb.com/s/all?refinement_paths%5B%5D=%2Fplaylists%2F48971&last_search_session_id=b9efe845-dc72-413e-bb12-0003c3ce86b4&search_type=section_navigation'
     },
-  ]
+  ],
 ]
