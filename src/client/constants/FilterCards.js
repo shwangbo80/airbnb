@@ -1,10 +1,10 @@
-import img1 from '../../assets/images/discoverthings-1.jpg'
-import img2 from '../../assets/images/discoverthings-2.jpg'
-import img3 from '../../assets/images/discoverthings-3.jpg'
-import img4 from '../../assets/images/liveanywhere-1.jpg'
-import img5 from '../../assets/images/liveanywhere-2.jpg'
-import img6 from '../../assets/images/liveanywhere-3.jpg'
-import img7 from '../../assets/images/liveanywhere-4.jpg'
+import img1 from '../../assets/images/liveanywhere-1.jpg'
+import img2 from '../../assets/images/liveanywhere-2.jpg'
+import img3 from '../../assets/images/liveanywhere-3.jpg'
+import img4 from '../../assets/images/liveanywhere-4.jpg'
+import img5 from '../../assets/images/discoverthings-1.jpg'
+import img6 from '../../assets/images/discoverthings-2.jpg'
+import img7 from '../../assets/images/discoverthings-3.jpg'
 
 export default [
   [
