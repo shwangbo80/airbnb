@@ -4,10 +4,10 @@ import Footer from './client/components/Footer'
 import ExploreNearby from './client/components/ExploreNearby';
 import LiveAnywhere from './client/components/LiveAnywhere.js';
 import TryHosting from './client/components/TryHosting';
+import DiscoverThingsToDo from './client/components/DiscoverThingsToDo';
 import Inspiration from './client/components/Inspiration';
 import DirectoryFooter from './client/components/DirectoryFooter';
 import img1 from './assets/images/tryhosting-1.jpg'
-import DiscoverThingsToDo from './client/components/DiscoverThingsToDo';
 
 const App = () => {
   return (

@@ -7,6 +7,7 @@ import img3 from '../../assets/images/liveanywhere-3.jpg'
 import img4 from '../../assets/images/liveanywhere-4.jpg'
 
 // Need to create routes for links for less clutter/code
+// I can probably leave these objects in one file within the constants folder
 const cards = [
   {
     id: 0,
@@ -37,16 +38,16 @@ const cards = [
 const LiveAnywhere = () => {
 
   return (
-    <Container fluid className='py-5 debug'>
-      <h2 className='debug'>Live anywhere</h2>
-      <Row className='debug'>
+    <Container fluid className='py-5 ps-5 pe-5'>
+      <h2>Live anywhere</h2>
+      <Row className=''>
         {cards.map((card, index) => {
           return (
-            <Col className='mt-3 g-3 debug' xs={6} md={3} lg={3}>
+            <Col className='mt-3 g-3 ' xs={6} md={3} lg={3}>
               <a href={card.path}>
-                <Image className='img-fluid mb-2 rounded-3 debug' key={index} src={card.img} />
+                <Image className='img-fluid mb-2 rounded-3 ' key={index} src={card.img} />
               </a>
-              <h5 className='debug'>{card.title}</h5>
+              <h5 className=''>{card.title}</h5>
             </Col>
           )
         })}

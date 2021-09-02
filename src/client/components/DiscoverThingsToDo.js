@@ -4,6 +4,8 @@ import img1 from '../../assets/images/discoverthings-1.jpg'
 import img2 from '../../assets/images/discoverthings-2.jpg'
 import img3 from '../../assets/images/discoverthings-3.jpg'
 
+// Need to create routes for links for less clutter/code
+// I can probably leave these objects in one file within the constants folder
 const cards = [
   {
     id: 0,
@@ -30,7 +32,7 @@ const cards = [
 
 const DiscoverThingsToDo = () => {
   return (
-    <Container fluid className=''>
+    <Container fluid className='ps-5 pe-5'>
       <h2>Discover things to do</h2>
       <Row>
         {cards.map((card, index) => {
