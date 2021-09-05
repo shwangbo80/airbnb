@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react';
 
 function Logo() {
   const [logoColor, setLogoColor] = useState(logoImg);
+
   useEffect(() => {
     const handleScroll = () => {
       if (window.scrollY > 10) {
