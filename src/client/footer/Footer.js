@@ -4,7 +4,7 @@ import { Globe, Facebook, Twitter, Instagram } from 'react-bootstrap-icons'
 
 const Footer = () => {
   return (
-    <>
+    <React.Fragment>
       <Container fluid>
         <Navbar bg="light" variant="light">
           <Container fluid>
@@ -35,7 +35,7 @@ const Footer = () => {
           </Container>
         </Navbar>
       </Container>
-    </>
+    </React.Fragment>
   )
 }
 
