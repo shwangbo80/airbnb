@@ -2,6 +2,8 @@ import React from 'react'
 import { Container, Tab, Tabs } from 'react-bootstrap'
 import ArtsList from './ArtsList'
 import OutdoorList from './OutdoorList'
+import CabinsList from './CabinsList'
+import BeachList from './BeachLIst'
 
 const Inspiration = () => {
   return (
@@ -18,8 +20,10 @@ const Inspiration = () => {
             <OutdoorList />
           </Tab>
           <Tab eventKey="mountain" title="Mountain cabins">
+            <CabinsList />
           </Tab>
           <Tab eventKey="beach" title="Beach destinations">
+            <BeachList />
           </Tab>
           <Tab eventKey="popular" title="Popular destinations">
           </Tab>
