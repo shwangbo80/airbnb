@@ -8,7 +8,9 @@ const Hero = () => {
     <div className="hero-img">
       <MainNavbar />
       <div className="search-bar-div">
-        <SearchBar />
+        <div className="d-none d-lg-inline">
+          <SearchBar />
+        </div>
       </div>
       <div className="hero-container">
         <h3 className="hero-text">Not sure where to go? Perfect.</h3>

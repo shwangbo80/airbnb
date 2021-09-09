@@ -4,6 +4,7 @@ import Logo from './Logo';
 import MemberPortal from './MemberPortal';
 import { Navbar } from 'react-bootstrap';
 import { useState, useRef, useEffect } from 'react';
+import SearchBarNav from '../Hero/SearchBarNav';
 
 const MainNavbar = () => {
   const [navBackground, setNavBackground] = useState(false);
@@ -31,15 +32,27 @@ const MainNavbar = () => {
           backgroundColor: navBackground ? 'white' : 'transparent',
         }}
       >
-        <Logo />
-        <NavItem title="Places to stay" />
-        <NavItem title="Experiences" />
-        <NavItem title="Online Experiences" />
-        <li class="ms-auto">Become a host</li>
-        <li className="mx-3">
-          <i className="bi bi-globe" />
-        </li>
-        <MemberPortal />
+        <span className="logo-hide">
+          <Logo />
+        </span>
+        <span className="nav-items">
+          <NavItem title="Places to stay" />
+          <NavItem title="Experiences" />
+          <NavItem title="Online Experiences" />
+        </span>
+
+        <span className="d-lg-none">
+          <SearchBarNav />
+        </span>
+        <div className="member">
+          <li className=" d-none d-lg-inline host mx-3">Become a host</li>
+          <li className="mx-3 d-none d-lg-inline">
+            <i className="bi bi-globe" />
+          </li>
+          <span className="mx-3">
+            <MemberPortal />
+          </span>
+        </div>
       </Navbar>
     </>
   );
