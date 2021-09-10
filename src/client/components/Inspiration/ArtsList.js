@@ -47,54 +47,6 @@ const ArtsList = () => {
                                 Ireland
                             </p>
                         </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Grande Isle
-                            </h6>
-                            <p className="text-muted">
-                                Louisiana
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Duluth
-                            </h6>
-                            <p className="text-muted">
-                                Minnesota
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Inverness
-                            </h6>
-                            <p className="text-muted">
-                                Scotland
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Nashville
-                            </h6>
-                            <p className="text-muted">
-                                Tennessee
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Edinburgh
-                            </h6>
-                            <p className="text-muted">
-                                United Kingdom
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Lake Anna
-                            </h6>
-                            <p className="text-muted">
-                                Virginia
-                            </p>
-                        </a>
                     </Col>
                     <Col md={3}>
                         <a href="#" className="text-decoration-none">
@@ -135,54 +87,6 @@ const ArtsList = () => {
                             </h6>
                             <p className="text-muted">
                                 Italy
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                New Orleans
-                            </h6>
-                            <p className="text-muted">
-                                Louisiana
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Ansterdam
-                            </h6>
-                            <p className="text-muted">
-                                Netherlands
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Malaga
-                            </h6>
-                            <p className="text-muted">
-                                Spain
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Austin
-                            </h6>
-                            <p className="text-muted">
-                                Texas
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Liverpool
-                            </h6>
-                            <p className="text-muted">
-                                United Kingdom
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Leavenworth
-                            </h6>
-                            <p className="text-muted">
-                                Washington
                             </p>
                         </a>
                     </Col>
@@ -227,54 +131,6 @@ const ArtsList = () => {
                                 Italy
                             </p>
                         </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Marthans Vineyard
-                            </h6>
-                            <p className="text-muted">
-                                Massachusetts
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                New York
-                            </h6>
-                            <p className="text-muted">
-                                New York
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Valencia
-                            </h6>
-                            <p className="text-muted">
-                                Spain
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Houston
-                            </h6>
-                            <p className="text-muted">
-                                Texas
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                St Ives
-                            </h6>
-                            <p className="text-muted">
-                                United Kingdom
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Seattle
-                            </h6>
-                            <p className="text-muted">
-                                Washington
-                            </p>
-                        </a>
                     </Col>
                     <Col md={3}>
                         <a href="#" className="text-decoration-none">
@@ -315,46 +171,6 @@ const ArtsList = () => {
                             </h6>
                             <p className="text-muted">
                                 Lisbon
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                South Haven
-                            </h6>
-                            <p className="text-muted">
-                                Michigan
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Nice
-                            </h6>
-                            <p className="text-muted">
-                                Provence-Alpes-Côte d'Azur
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Split
-                            </h6>
-                            <p className="text-muted">
-                                Split-Dalmatia County
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Darthmouth
-                            </h6>
-                            <p className="text-muted">
-                                United Kingdom
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Lake Powell
-                            </h6>
-                            <p className="text-muted">
-                                United States
                             </p>
                         </a>
                     </Col>

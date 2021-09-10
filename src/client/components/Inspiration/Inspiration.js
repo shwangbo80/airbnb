@@ -4,11 +4,13 @@ import ArtsList from './ArtsList'
 import OutdoorList from './OutdoorList'
 import CabinsList from './CabinsList'
 import BeachList from './BeachLIst'
+import PopularList from './Popular'
+import UniqueList from './Unique'
 
 const Inspiration = () => {
   return (
     <React.Fragment>
-      <Container fluid className="mx-4 my-5">
+      <Container fluid className="px-5 my-5">
         <Tabs defaultActiveKey="home"
           id="uncontrolled-tab-example"
           transition={false}
@@ -26,8 +28,11 @@ const Inspiration = () => {
             <BeachList />
           </Tab>
           <Tab eventKey="popular" title="Popular destinations">
+            <PopularList />
           </Tab>
           <Tab eventKey="unique" title="Unique stays">
+            <UniqueList />
+
           </Tab>
         </Tabs>
       </Container>

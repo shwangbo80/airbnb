@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
-const CabinsList = () => {
+const PopularList = () => {
     return (
         <React.Fragment>
             <Container fluid>
@@ -9,41 +9,49 @@ const CabinsList = () => {
                     <Col md={3}>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Lake Martin
+                                Grande Isle
                             </h6>
                             <p className="text-muted">
-                                Alabama
+                                Louisiana
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Stone Mountain
+                                Duluth
                             </h6>
                             <p className="text-muted">
-                                Georgia
+                                Minnesota
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Blowing Rock
+                                Inverness
                             </h6>
                             <p className="text-muted">
-                                North Carolina
+                                Scotland
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Townsend
+                                Nashville
                             </h6>
                             <p className="text-muted">
                                 Tennessee
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Edinburgh
+                            </h6>
+                            <p className="text-muted">
+                                United Kingdom
                             </p>
                         </a>
                     </Col>
                     <Col md={3}>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Sedona
+                                Hot Springs
                             </h6>
                             <p className="text-muted">
                                 Arizona
@@ -51,86 +59,118 @@ const CabinsList = () => {
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Island Park
+                                Barcelona
                             </h6>
                             <p className="text-muted">
-                                Idaho
+                                Caltalonia
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Boone
+                                London
                             </h6>
                             <p className="text-muted">
-                                North Carolina
+                                England
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Wears Valley
+                                Paris
                             </h6>
                             <p className="text-muted">
-                                Tennessee
-                            </p>
-                        </a>
-                    </Col>
-                    <Col md={3}>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Helen
-                            </h6>
-                            <p className="text-muted">
-                                Georgia
+                                France
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Blue Mountains
+                                Florence
                             </h6>
                             <p className="text-muted">
-                                New South Wales
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Hochatown
-                            </h6>
-                            <p className="text-muted">
-                                Oklahoma
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Cabins
-                            </h6>
-                            <p className="text-muted">
-                                West Virginia
+                                Italy
                             </p>
                         </a>
                     </Col>
                     <Col md={3}>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Pine Mountain
+                                Los Angeles
                             </h6>
                             <p className="text-muted">
-                                Georgia
+                                California
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Asheville
+                                Praque
                             </h6>
                             <p className="text-muted">
-                                North Carolina
+                                Czechia
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Pigeon Forge
+                                Searborough
                             </h6>
                             <p className="text-muted">
-                                Tennessee
+                                Englans
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Rhodes
+                            </h6>
+                            <p className="text-muted">
+                                Greece
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Rome
+                            </h6>
+                            <p className="text-muted">
+                                Italy
+                            </p>
+                        </a>
+                    </Col>
+                    <Col md={3}>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                San Diego
+                            </h6>
+                            <p className="text-muted">
+                                California
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Washington
+                            </h6>
+                            <p className="text-muted">
+                                District of Columbia
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Sherwood Forest
+                            </h6>
+                            <p className="text-muted">
+                                England
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Nashville
+                            </h6>
+                            <p className="text-muted">
+                                Indiana
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Lisbon
+                            </h6>
+                            <p className="text-muted">
+                                Lisbon
                             </p>
                         </a>
                     </Col>
@@ -140,4 +180,4 @@ const CabinsList = () => {
     )
 }
 
-export default CabinsList
+export default PopularList

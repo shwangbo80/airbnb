@@ -8,7 +8,7 @@ import SupportDirectory from './DirectorySupport'
 const DirectoryFooter = () => {
   return (
     <React.Fragment>
-      <Container fluid className="mx-4 py-5 bg-light">
+      <Container fluid className="py-5 px-5 bg-light">
         <Row>
           <Col md={3}>
             <AboutDirectory />

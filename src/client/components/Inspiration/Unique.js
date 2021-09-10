@@ -1,7 +1,7 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 
-const CabinsList = () => {
+const UniqueList = () => {
     return (
         <React.Fragment>
             <Container fluid>
@@ -9,23 +9,99 @@ const CabinsList = () => {
                     <Col md={3}>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Lake Martin
+                                Moraira
                             </h6>
                             <p className="text-muted">
-                                Alabama
+                                Valencian Community
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Stone Mountain
+                                Port Campbell
                             </h6>
                             <p className="text-muted">
-                                Georgia
+                                Victoria
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Blowing Rock
+                                Snowdon
+                            </h6>
+                            <p className="text-muted">
+                                Wales
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Quinault
+                            </h6>
+                            <p className="text-muted">
+                                Washington
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Wisconsin Dells
+                            </h6>
+                            <p className="text-muted">
+                                Wisconsin
+                            </p>
+                        </a>
+                    </Col>
+                    <Col md={3}>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Sunriver
+                            </h6>
+                            <p className="text-muted">
+                                Oregon
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Aviemore
+                            </h6>
+                            <p className="text-muted">
+                                Scotland
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                St Helens
+                            </h6>
+                            <p className="text-muted">
+                                Tasmania
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Lake Buchanan
+                            </h6>
+                            <p className="text-muted">
+                                Texas
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Loch Lomond
+                            </h6>
+                            <p className="text-muted">
+                                United Kingdom
+                            </p>
+                        </a>
+                    </Col>
+                    <Col md={3}>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Lake Placid
+                            </h6>
+                            <p className="text-muted">
+                                New York
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Emerald Isle
                             </h6>
                             <p className="text-muted">
                                 North Carolina
@@ -33,33 +109,7 @@ const CabinsList = () => {
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Townsend
-                            </h6>
-                            <p className="text-muted">
-                                Tennessee
-                            </p>
-                        </a>
-                    </Col>
-                    <Col md={3}>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Sedona
-                            </h6>
-                            <p className="text-muted">
-                                Arizona
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Island Park
-                            </h6>
-                            <p className="text-muted">
-                                Idaho
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Boone
+                                Mount Airy
                             </h6>
                             <p className="text-muted">
                                 North Carolina
@@ -67,33 +117,7 @@ const CabinsList = () => {
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Wears Valley
-                            </h6>
-                            <p className="text-muted">
-                                Tennessee
-                            </p>
-                        </a>
-                    </Col>
-                    <Col md={3}>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Helen
-                            </h6>
-                            <p className="text-muted">
-                                Georgia
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Blue Mountains
-                            </h6>
-                            <p className="text-muted">
-                                New South Wales
-                            </p>
-                        </a>
-                        <a href="#" className="text-decoration-none">
-                            <h6 className="text-dark mt-4 mb-0">
-                                Hochatown
+                                Medicine Park
                             </h6>
                             <p className="text-muted">
                                 Oklahoma
@@ -101,36 +125,52 @@ const CabinsList = () => {
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Cabins
+                                Tobermory
                             </h6>
                             <p className="text-muted">
-                                West Virginia
+                                Ontario
                             </p>
                         </a>
                     </Col>
                     <Col md={3}>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Pine Mountain
+                                Lough Eske
                             </h6>
                             <p className="text-muted">
-                                Georgia
+                                Ireland
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Asheville
+                                Deep Creek Lake
                             </h6>
                             <p className="text-muted">
-                                North Carolina
+                                Maryland
                             </p>
                         </a>
                         <a href="#" className="text-decoration-none">
                             <h6 className="text-dark mt-4 mb-0">
-                                Pigeon Forge
+                                Traverse City
                             </h6>
                             <p className="text-muted">
-                                Tennessee
+                                Michigan
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Big Sky
+                            </h6>
+                            <p className="text-muted">
+                                Montana
+                            </p>
+                        </a>
+                        <a href="#" className="text-decoration-none">
+                            <h6 className="text-dark mt-4 mb-0">
+                                Red River
+                            </h6>
+                            <p className="text-muted">
+                                New Mexico
                             </p>
                         </a>
                     </Col>
@@ -140,4 +180,4 @@ const CabinsList = () => {
     )
 }
 
-export default CabinsList
+export default UniqueList
