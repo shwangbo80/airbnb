@@ -6,19 +6,20 @@ import LiveAnywhere from './client/components/LiveAnywhere';
 import TryHosting from './client/components/TryHosting';
 import Inspiration from './client/components/Inspiration';
 import DirectoryFooter from './client/components/DirectoryFooter';
+import ListingsPage from './client/components/ListingsPage/ListingsPage';
 // import Layout from './client/components/Layout';
 
 const App = () => {
   return (
     <>
-      {/* <Navbar /> */}
-      <Hero />
+      {/* <Hero />
       <ExploreNearby />
       <LiveAnywhere />
       <TryHosting />
       <Inspiration />
       <DirectoryFooter />
-      <Footer />
+      <Footer /> */}
+      <ListingsPage />
     </>
   );
 };
