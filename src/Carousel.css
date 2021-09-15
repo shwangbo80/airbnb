@@ -1,0 +1,11 @@
+.carousel-control-prev-icon {
+    position: relative;
+    top: 330px;
+    left: 500px
+}
+
+.carousel-control-next-icon {
+    position: relative;
+    top: 330px;
+    right: 500px
+}

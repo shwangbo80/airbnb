@@ -1,41 +1,43 @@
 import React from 'react'
-import { Container, Navbar, Nav } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import { Globe, Facebook, Twitter, Instagram } from 'react-bootstrap-icons'
 
 const Footer = () => {
   return (
     <React.Fragment>
       <Container fluid>
-        <Navbar bg="light" variant="light">
-          <Container fluid>
-            <Nav className="">
-              <Nav.Link href="#home">© 2021 Airbnb, Inc.</Nav.Link>
-              <Nav.Link href="#features">· Privacy</Nav.Link>
-              <Nav.Link href="#pricing">· Terms</Nav.Link>
-              <Nav.Link href="#pricing">· Sitemap</Nav.Link>
-            </Nav>
-            <Nav className="">
-              <Globe size={12} className="mt-3" />
-              <Nav.Link href="#home">
+        <Row className="d-flex justify-content-between text-center">
+          <Col lg={6}>
+            <div className="d-inline-flex mt-3">
+              <a href="#home" class="mx-3 text-decoration-none text-dark">© 2021 Airbnb, Inc </a>
+              <a href="#features" class="mx-3 text-decoration-none text-dark">· Privacy</a>
+              <a href="#pricing" class="mx-3 text-decoration-none text-dark">· Terms</a>
+              <a href="#pricing" class="mx-3 text-decoration-none text-dark">· Sitemap</a>
+            </div>
+          </Col>
+          <Col lg={6}>
+            <div className="d-inline-flex mt-3">
+              <Globe size={12} className="mt-2" />
+              <a href="#home" class="mx-1 text-decoration-none text-dark">
                 <p>English(US)</p>
-              </Nav.Link>
-              <Nav.Link href="#features" className="mx-3" >
+              </a>
+              <a href="#features" className="mx-3 text-decoration-none text-dark" >
                 <p>$ USD</p>
-              </Nav.Link>
-              <Nav.Link href="https://www.facebook.com" >
-                <Facebook size={24} className="mx-3" />
-              </Nav.Link>
-              <Nav.Link href="https://www.twitter.com">
-                <Twitter size={24} className="mx-2" />
-              </Nav.Link>
-              <Nav.Link href="https://www.instagram.com">
-                <Instagram size={24} className="mx-2" />
-              </Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
-      </Container>
-    </React.Fragment>
+              </a>
+              <a href="https://www.facebook.com" >
+                <Facebook size={24} className="mx-3 text-decoration-none text-dark" />
+              </a>
+              <a href="https://www.twitter.com">
+                <Twitter size={24} className="mx-2 text-decoration-none text-dark" />
+              </a>
+              <a href="https://www.instagram.com">
+                <Instagram size={24} className="mx-2 text-decoration-none text-dark" />
+              </a>
+            </div>
+          </Col>
+        </Row>
+      </Container >
+    </React.Fragment >
   )
 }
 
