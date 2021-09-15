@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Navbar, Nav, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap'
 import { Globe, Facebook, Twitter, Instagram } from 'react-bootstrap-icons'
 
 const Footer = () => {

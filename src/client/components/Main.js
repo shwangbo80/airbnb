@@ -19,8 +19,8 @@ const MainComponent = () => {
             <ExploreNearby />
             <LiveAnywhere />
             <TryHosting />
-            <Inspiration />
             <Hosting />
+            <Inspiration />
             <DirectoryFooter />
             <Footer />
         </Container>
