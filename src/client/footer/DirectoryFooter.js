@@ -8,24 +8,26 @@ import SupportDirectory from './DirectorySupport'
 const DirectoryFooter = () => {
   return (
     <React.Fragment>
-      <Container fluid className="py-5 px-5 bg-light">
-        <Row>
-          <Col md={3}>
-            <AboutDirectory />
-          </Col>
+      <Container fluid className="bg-light">
+        <Container className="py-5 px-5 bg-light">
+          <Row>
+            <Col md={3}>
+              <AboutDirectory />
+            </Col>
 
-          <Col md={3} className="font-weight-bold">
-            <CommunityDirectory />
-          </Col>
+            <Col md={3} className="font-weight-bold">
+              <CommunityDirectory />
+            </Col>
 
-          <Col md={3} className="font-weight-bold">
-            <HostDirectory />
-          </Col>
+            <Col md={3} className="font-weight-bold">
+              <HostDirectory />
+            </Col>
 
-          <Col md={3} className="font-weight-bold">
-            <SupportDirectory />
-          </Col>
-        </Row>
+            <Col md={3} className="font-weight-bold">
+              <SupportDirectory />
+            </Col>
+          </Row>
+        </Container>
       </Container>
     </React.Fragment>
   )
