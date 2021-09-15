@@ -24,4 +24,4 @@ const DiscoverThingsToDo = ({ filterCards }) => {
   )
 }
 
-export default DiscoverThingsToDo
+export default DiscoverThingsToDo;
