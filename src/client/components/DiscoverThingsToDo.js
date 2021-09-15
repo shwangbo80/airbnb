@@ -25,3 +25,4 @@ const DiscoverThingsToDo = ({ filterCards }) => {
 }
 
 export default DiscoverThingsToDo
+w
