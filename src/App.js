@@ -12,14 +12,13 @@ import ListingsPage from './client/components/ListingsPage/ListingsPage';
 const App = () => {
   return (
     <>
-      {/* <Hero />
+      <Hero />
       <ExploreNearby />
       <LiveAnywhere />
       <TryHosting />
       <Inspiration />
       <DirectoryFooter />
-      <Footer /> */}
-      <ListingsPage />
+      <Footer />
     </>
   );
 };
