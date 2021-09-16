@@ -10,7 +10,7 @@ import UniqueList from './Unique'
 const Inspiration = () => {
   return (
     <React.Fragment>
-      <Container fluid className="px-5 my-5">
+      <Container className="px-5 my-5">
         <Tabs defaultActiveKey="home"
           id="uncontrolled-tab-example"
           transition={false}
