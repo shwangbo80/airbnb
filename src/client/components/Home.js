@@ -1,27 +1,25 @@
-import Navbar from './Navbar'
-import Hero from './Hero'
-import ExploreNearby from './ExploreNearby'
-import LiveAnywhere from './LiveAnywhere';
-import TryHosting from './TryHosting';
+import Hero from './Hero/Hero'
+import ExploreNearby from './ExploreNearby/ExploreNearby'
+import LiveAnywhere from './LiveAnywhere'
+import TryHosting from './TryHosting'
 import DiscoverThingsToDo from './DiscoverThingsToDo'
-import Inspiration from './Inspiration/Inspiration';
+import Inspiration from './Inspiration/Inspiration'
 import Footer from '../footer/Footer'
-import DirectoryFooter from '../footer/DirectoryFooter';
+import DirectoryFooter from '../footer/DirectoryFooter'
 
 const HomeComponent = () => {
-    return (
-        <>
-            <Navbar />
-            <Hero />
-            <ExploreNearby />
-            <LiveAnywhere />
-            <TryHosting />
-            <DiscoverThingsToDo />
-            <Inspiration />
-            <DirectoryFooter />
-            <Footer />
-        </>
-    );
+  return (
+    <>
+      <Hero />
+      <ExploreNearby />
+      <LiveAnywhere />
+      <TryHosting />
+      <DiscoverThingsToDo />
+      <Inspiration />
+      <DirectoryFooter />
+      <Footer />
+    </>
+  )
 }
 
-export default HomeComponent;
+export default HomeComponent
