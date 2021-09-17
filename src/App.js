@@ -1,4 +1,4 @@
-import MainComponent from "./client/components/Main";
+import MainComponent from './client/components/Main'
 import './App.css'
 
 // import Layout from './client/components/Layout';
@@ -8,7 +8,7 @@ const App = () => {
     <>
       <MainComponent />
     </>
-  );
+  )
 }
 
-export default App;
+export default App
