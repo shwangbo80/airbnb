@@ -1,25 +1,43 @@
 import React from 'react'
-import { Container, Row, Col, Button, Carousel, Image } from 'react-bootstrap';
+import { Container, Row, Col, Button, Image, Navbar } from 'react-bootstrap';
+import Footer from '../footer/Footer'
+import DirectoryFooter from '../footer/DirectoryFooter';
 
 const Hosting = () => {
     return (
         <React.Fragment>
             <Container fluid>
+
                 <Row>
-                    <Col md={6} className="text-center text-light bg-dark px-0 d-flex justify-content-center" style={{ height: '1000px' }}>
-                        <div className="align-self-center">
-                            <h1 className='display-4'>
-                                Hosting
-                            </h1>
-                            <h1 className='display-4'>
-                                makes Airbnb,
-                            </h1>
-                            <h1 className='display-4'>
-                                Airbnb
-                            </h1>
-                            <Button className="btn-danger btn-lg mt-4">
-                                Try Hosting
-                            </Button>
+                    <Col md={6} className="text-light bg-dark px-0 " style={{ height: '1000px' }}>
+                        <div>
+                            <Navbar bg="dark mx-5">
+                                <Navbar.Brand href="/">
+                                    <img
+                                        src="/airbnblogo.png"
+                                        width="30"
+                                        height="30"
+                                        className="d-inline-block align-top"
+                                        alt="React Bootstrap logo"
+                                    />
+                                </Navbar.Brand>
+                            </Navbar>
+                        </div>
+                        <div className="d-flex h-100 justify-content-center">
+                            <div className="justify-content-center align-self-center">
+                                <h1 className='display-4'>
+                                    Hosting
+                                </h1>
+                                <h1 className='display-4'>
+                                    makes Airbnb,
+                                </h1>
+                                <h1 className='display-4'>
+                                    Airbnb
+                                </h1>
+                                <Button className="btn-danger btn-lg mt-4">
+                                    Try Hosting
+                                </Button>
+                            </div>
                         </div>
 
                     </Col>
@@ -160,7 +178,7 @@ const Hosting = () => {
                                     Airbnb
                                 </h1>
                                 <h5>
-                                    Join us. We’ll help you every
+                                    Join us.We’ll help you every
                                     <br />
                                     step of the way.
                                 </h5>
@@ -171,6 +189,8 @@ const Hosting = () => {
                         </Col>
                     </Row>
                 </div>
+                <DirectoryFooter />
+                <Footer />
             </Container >
         </React.Fragment >
     )

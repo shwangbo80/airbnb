@@ -1,3 +1,4 @@
+import Button from '@restart/ui/esm/Button'
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap'
 import { Globe, Facebook, Twitter, Instagram } from 'react-bootstrap-icons'
