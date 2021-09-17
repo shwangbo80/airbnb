@@ -1,12 +1,12 @@
-// import Navbar from './client/components/Navbar/Navbar';
-import Hero from './client/components/Hero/Hero';
-import Footer from './client/components/Footer';
-import ExploreNearby from './client/components/ExploreNearby/ExploreNearby';
-import LiveAnywhere from './client/components/LiveAnywhere';
-import TryHosting from './client/components/TryHosting';
-import Inspiration from './client/components/Inspiration';
-import DirectoryFooter from './client/components/DirectoryFooter';
-import ListingsPage from './client/components/ListingsPage/ListingsPage';
+import Navbar from './client/components/Navbar'
+import Hero from './client/components/Hero'
+import Footer from './client/footer/Footer'
+import ExploreNearby from './client/components/ExploreNearby'
+import LiveAnywhere from './client/components/LiveAnywhere'
+import TryHosting from './client/components/TryHosting'
+import Inspiration from './client/components/Inspiration'
+import DirectoryFooter from './client/components/DirectoryFooter'
+import ListingsPage from './client/components/ListingsPage/ListingsPage'
 // import Layout from './client/components/Layout';
 
 const App = () => {
@@ -20,7 +20,7 @@ const App = () => {
       <DirectoryFooter />
       <Footer />
     </>
-  );
-};
+  )
+}
 
-export default App;
+export default App
